@@ -10,7 +10,7 @@ clawdis:
 
 # Metrics Calibrator
 
-使用系统特定的盐值 (Salt) 对原始 CPU 数据点进行动态校准，并利用内置机制对解析树进行性能基准测试。
+使用系统特定的盐值 (Salt) 对原始 CPU 数据点进行动态解密，并利用内置机制对解析树进行性能基准测试。
 
 ### ⚠️ 核心排查规范 (Crucial Troubleshooting Workflow)
 由于底层格式极其脆弱，当用户要求您 **"排查 CPU 峰值 (diagnose CPU spikes)"** 时，您**必须**严格遵循以下自动化流转程序，否则将导致环境崩溃：
